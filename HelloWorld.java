@@ -8,11 +8,14 @@ public class HelloWorld {
 			System.out.println("What animal would you like to see?");
 			String selection = scanner.nextLine();
 			if (selection.toLowerCase().equals("cat")) {
-				System.out.println("PLACEHOLDER CAT");
+				System.out.println("  |\\      _,,,---,,_\r\n" + //
+										"  /,`.-'`'    -.  ;-;;,_\r\n" + //
+										" |,4-  ) )-,_. ,\\ (  `'-'\r\n" + //
+										"'---''(_/--'  `-'\\_)");
 				repeat = false;
 			}
 			else if (selection.toLowerCase().equals("dog")) {
-				System.out.println("PLACEHOLDER DOG");
+				System.out.println("__\r\n (___()'`;\r\n /,    /`\r\n \\\\\"--\\\\");
 				repeat = false;
 			}
 			else {
