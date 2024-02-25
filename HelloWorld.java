@@ -5,11 +5,14 @@ public class HelloWorld {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("What animal would you like to see?");
 		String selection = scanner.nextLine();
-		if (selection.toLowerCase() == "cat") {
+		if (selection.toLowerCase().equals("cat")) {
 			System.out.println("PLACEHOLDER CAT");
 		}
-		else if (selection.toLowerCase() == "dog") {
+		else if (selection.toLowerCase().equals("dog")) {
 			System.out.println("PLACEHOLDER DOG");
+		}
+		else {
+			System.out.println("Invalid input");
 		}
 		scanner.close();
 	}
